@@ -49,7 +49,7 @@ function banner_div(){
 	echo '
 <div id="banner_15hack">
 Necesitamos <a href="https://15hack.tomalaplaza.net/financiacion-2019/">donaciones</a>
-para mantener los servicios.
+para mantener los servicios
 </div>
   ';
 }
