@@ -31,4 +31,4 @@ para mantener los servicios.
 }
 
 add_action('wp_head', 'banner_css');
-add_action('wp_footer', 'banner_css');
+add_action('wp_footer', 'banner_div');
