@@ -17,8 +17,32 @@ function banner_css(){
   padding: 20px;
   text-align: center;
   font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+  display: block;
+  left: 0;
+  height: 80px;
+  font-size: 1.5em;
+}
+#banner_15hack.moved {
+  position: unset;
+  bottom: unset;
+}
+#banner_15hack a {
+  color: blue;
 }
 </style>
+<script>
+if (jQuery) {
+  jQuery(document).ready(function(){
+    var banner=jQuery("#banner_15hack");
+    var body=jQuery("body");
+    body.prepend(banner);
+    banner.addClass("moved")
+  })
+}
+</script>
   ';
 }
 function banner_div(){
