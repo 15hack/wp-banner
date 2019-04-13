@@ -12,17 +12,18 @@ function banner_css(){
 	echo '
 <style>
 #banner_15hack {
-  background-color: red;
-  color: black;
-  padding: 20px;
-  text-align: center;
-  font-weight: bold;
-  position: fixed;
-  bottom: 0;
-  margin: 0;
-  display: block;
-  font-size: 1.5em;
+	background-color: red;
+	color: black;
+	padding: 20px;
+	text-align: center;
+	font-weight: bold;
+	position: fixed;
+	bottom: 0;
+	margin: 0;
+	display: block;
+	font-size: 1.5em;
 	width: 100%;
+	z-index: 99999;
 }
 #banner_15hack.moved {
   position: unset;
