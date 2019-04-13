@@ -21,8 +21,6 @@ function banner_css(){
   bottom: 0;
   margin: 0;
   display: block;
-  left: 0;
-  height: 80px;
   font-size: 1.5em;
 }
 #banner_15hack.moved {
