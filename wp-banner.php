@@ -50,7 +50,7 @@ function banner_div(){
 <div id="banner_15hack">
 Necesitamos <a href="https://15hack.tomalaplaza.net/financiacion-2020/">donaciones</a>
 para mantener los servicios<br/>
-Estamos casi en <a href="https://15hack.tomalaplaza.net/bote/">números rojos</a>
+We need <a href="https://15hack.tomalaplaza.net/financiacion-2020/">donations</a> to maintain services
 </div>
   ';
 }
