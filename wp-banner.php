@@ -45,6 +45,7 @@ if (jQuery) {
 </script>
   ';
 }
+
 function banner_div(){
 	echo '
 <div id="banner_15hack">
